@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "Sure-Tenders",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

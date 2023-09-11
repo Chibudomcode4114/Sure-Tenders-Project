@@ -1,0 +1,255 @@
+[
+    {
+        "id": 1,
+        "name": "The Tender Hiker",
+        "duration": 5,
+        "maxGroupSize": 25,
+        "difficulty": "easy",
+        "ratingsAverage": 4.7,
+        "ratingsQuantity": 37,
+        "price": 397,
+        "summary": "Breathtaking hike through the Canadian Banff National Park",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "imageCover": "tender-1-cover.jpg",
+        "images": [
+            "tender-1-1.jpg",
+            "tender-1-2.jpg",
+            "tender-1-3.jpg"
+        ],
+        "startDates": [
+            "2021-04-25,10:00",
+            "2021-07-20,10:00",
+            "2021-10-05,10:00"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "The Tender Adventure",
+        "duration": 8,
+        "maxGroupSize": 12,
+        "difficulty": "medium",
+        "ratingsAverage": 4.5,
+        "ratingsQuantity": 23,
+        "price": 587,
+        "summary": "Exciting adventure in the heart of the Amazon Rainforest",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "imageCover": "tender-2-cover.jpg",
+        "images": [
+            "tender-2-1.jpg",
+            "tender-2-2.jpg",
+            "tender-2-3.jpg"
+        ],
+        "startDates": [
+            "2021-05-10,09:00",
+            "2021-08-15,09:00",
+            "2021-11-20,09:00"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "The Tender Explorer",
+        "duration": 7,
+        "maxGroupSize": 15,
+        "difficulty": "hard",
+        "ratingsAverage": 4.9,
+        "ratingsQuantity": 54,
+        "price": 849,
+        "summary": "An epic journey to explore remote and untouched locations",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "imageCover": "tender-3-cover.jpg",
+        "images": [
+            "tender-3-1.jpg",
+            "tender-3-2.jpg",
+            "tender-3-3.jpg"
+        ],
+        "startDates": [
+            "2021-06-15,08:00",
+            "2021-09-20,08:00",
+            "2022-01-05,08:00"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "The Tender Wildlife",
+        "duration": 6,
+        "maxGroupSize": 20,
+        "difficulty": "medium",
+        "ratingsAverage": 4.6,
+        "ratingsQuantity": 41,
+        "price": 625,
+        "summary": "Get up close with incredible wildlife species",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "imageCover": "tender-4-cover.jpg",
+        "images": [
+            "tender-4-1.jpg",
+            "tender-4-2.jpg",
+            "tender-4-3.jpg"
+        ],
+        "startDates": [
+            "2021-07-25,11:00",
+            "2021-10-30,11:00",
+            "2022-02-05,11:00"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "The Tender Mountain",
+        "duration": 4,
+        "maxGroupSize": 18,
+        "difficulty": "medium",
+        "ratingsAverage": 4.8,
+        "ratingsQuantity": 31,
+        "price": 489,
+        "summary": "Challenge yourself with a thrilling mountain climbing experience",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "imageCover": "tender-5-cover.jpg",
+        "images": [
+            "tender-5-1.jpg",
+            "tender-5-2.jpg",
+            "tender-5-3.jpg"
+        ],
+        "startDates": [
+            "2021-08-10,14:00",
+            "2021-11-15,14:00",
+            "2022-03-05,14:00"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "The Tender Island",
+        "duration": 7,
+        "maxGroupSize": 10,
+        "difficulty": "hard",
+        "ratingsAverage": 4.9,
+        "ratingsQuantity": 27,
+        "price": 799,
+        "summary": "Discover the hidden treasures of a remote island paradise",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "imageCover": "tender-6-cover.jpg",
+        "images": [
+            "tender-6-1.jpg",
+            "tender-6-2.jpg",
+            "tender-6-3.jpg"
+        ],
+        "startDates": [
+            "2021-09-15,13:00",
+            "2021-12-20,13:00",
+            "2022-04-05,13:00"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "The Tender Expedition",
+        "duration": 9,
+        "maxGroupSize": 16,
+        "difficulty": "hard",
+        "ratingsAverage": 4.7,
+        "ratingsQuantity": 35,
+        "price": 899,
+        "summary": "Embark on an expedition to conquer challenging terrains",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "imageCover": "tender-7-cover.jpg",
+        "images": [
+            "tender-7-1.jpg",
+            "tender-7-2.jpg",
+            "tender-7-3.jpg"
+        ],
+        "startDates": [
+            "2021-10-20,12:00",
+            "2022-01-25,12:00",
+            "2022-05-10,12:00"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "The Desert Explorer",
+        "duration": 6,
+        "maxGroupSize": 12,
+        "difficulty": "challenging",
+        "ratingsAverage": 4.8,
+        "ratingsQuantity": 35,
+        "price": 799,
+        "summary": "Adventurous journey through the vast desert landscapes",
+        "description": "Experience the thrill of exploring the mesmerizing desert landscapes on this challenging expedition. Our experienced guides will lead you through sand dunes, ancient ruins, and hidden oases, providing fascinating insights into the history and culture of the region. Prepare yourself for a truly unforgettable adventure.",
+        "imageCover": "tender-8-cover.jpg",
+        "images": [
+            "tender-8-1.jpg",
+            "tender-8-2.jpg",
+            "tender-8-3.jpg"
+        ],
+        "startDates": [
+            "2021-09-05,08:00",
+            "2022-01-15,08:00",
+            "2022-04-30,08:00"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "The Coastal Explorer",
+        "duration": 4,
+        "maxGroupSize": 18,
+        "difficulty": "moderate",
+        "ratingsAverage": 4.6,
+        "ratingsQuantity": 31,
+        "price": 499,
+        "summary": "Discover the stunning coastal beauty on this unforgettable adventure",
+        "description": "Embark on a thrilling journey along the picturesque coastlines, where rugged cliffs meet pristine beaches and charming coastal villages. This moderate-level exploration offers breathtaking views, exciting water activities, and encounters with the local marine life. Get ready to be mesmerized by the beauty of nature and create lasting memories.",
+        "imageCover": "tender-9-cover.jpg",
+        "images": [
+            "tender-9-1.jpg",
+            "tender-9-2.jpg",
+            "tender-9-3.jpg"
+        ],
+        "startDates": [
+            "2021-07-12,14:00",
+            "2021-09-20,14:00",
+            "2022-02-05,14:00"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "The Jungle Adventurer",
+        "duration": 8,
+        "maxGroupSize": 16,
+        "difficulty": "challenging",
+        "ratingsAverage": 4.9,
+        "ratingsQuantity": 38,
+        "price": 899,
+        "summary": "Immerse yourself in the untamed beauty of dense jungles",
+        "description": "Embark on an unforgettable adventure deep into the heart of lush jungles, where exotic wildlife, cascading waterfalls, and ancient ruins await. This challenging expedition will test your endurance and reward you with breathtaking views and unique encounters with the jungle inhabitants. Get ready to explore the wild side of nature.",
+        "imageCover": "tender-10-cover.jpg",
+        "images": [
+            "tender-10-1.jpg",
+            "tender-10-2.jpg",
+            "tender-10-3.jpg"
+        ],
+        "startDates": [
+            "2021-11-10,07:30",
+            "2022-03-05,07:30",
+            "2022-06-20,07:30"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "The Alpine Trekker",
+        "duration": 6,
+        "maxGroupSize": 10,
+        "difficulty": "difficult",
+        "ratingsAverage": 4.7,
+        "ratingsQuantity": 27,
+        "price": 749,
+        "summary": "Challenge yourself with a thrilling trek through the majestic alpine landscapes",
+        "description": "Prepare for a challenging journey through breathtaking alpine landscapes, where towering peaks, crystal-clear lakes, and picturesque valleys await. This difficult-level trek will push your limits and reward you with stunning views and a profound sense of accomplishment. Join us on this unforgettable adventure and experience the grandeur of the mountains.",
+        "imageCover": "tender-11-cover.jpg",
+        "images": [
+            "tender-11-1.jpg",
+            "tender-11-2.jpg",
+            "tender-11-3.jpg"
+        ],
+        "startDates": [
+            "2021-08-25,09:30",
+            "2021-12-05,09:30",
+            "2022-05-10,09:30"
+        ]
+    }
+]

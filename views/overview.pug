@@ -1,0 +1,45 @@
+extends base
+
+block content 
+  main.main 
+    .card-container
+
+      each tender in tenders
+        .card
+          .card__header
+            .card__picture
+              .card__picture-overlay &nbsp;
+              img.card__picture-img(src=`/img/tenders/${tender.imageCover}`, alt=`${tender.name}`)
+            h3.heading-tertirary
+              span= tender.name 
+
+          .card__details
+            h4.card__sub-heading= `${tender.difficulty} ${tender.duration}-day tender`
+            p.card__text= tender.summary  
+            .card__data
+              svg.card__icon
+                use(xlink:href='/img/icons.svg#icon-map-pin')
+              span=tender.startLocation.description 
+            .card__data
+              svg.card__icon
+                use(xlink:href='/img/icons.svg#icon-calendar')
+              span= tender.startDates[0].toLocaleString('en-us',{month: 'long', year:'numeric'})
+            .card__data
+              svg.card__icon
+                use(xlink:href='/img/icons.svg#icon-flag')
+              span=`${tender.locations.length} stops`
+            .card__data
+              svg.card__icon
+                use(xlink:href='/img/icons.svg#icon-user')
+              span=`${tender.maxGroupSize} people` 
+
+          .card__footer
+            p
+              span.card__footer-value=`$${tender.price}`
+              | 
+              span.card__footer-text per person
+            p.card__ratings
+              span.card__footer-value= tender.ratingsAverage
+              | 
+              span.card__footer-text= `rating (${tender.ratingsQuantity}).`
+            a.btn.btn--green.btn--small(href=`/tender/${tender.slug}`) Details
