@@ -21,7 +21,7 @@
 
 ## 1. Introduction <a name="introduction"></a>
 
-The Sure-tender System, developed by Quanteq Technology Services, is an e-tendering platform designed to streamline and enhance the procurement process for both buyers and vendors. This README provides an overview of the system's key components and functionalities.
+The Sure-tender System, developed by Uzo Chikwendu, It is an e-tendering platform designed to streamline and enhance the procurement process for both buyers and vendors. This README provides an overview of the system's key components and functionalities.
 
 ## 2. User Roles <a name="user-roles"></a>
 
