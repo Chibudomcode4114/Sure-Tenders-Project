@@ -182,10 +182,10 @@ tenderSchema.pre(/^find/, function (next) {
 })
 
 
-tenderSchema.post(/^find/, function (docs, next) {
-    console.log(`Query took ${Date.now() - this.start} milliseconds!`);
-    next()
-});
+// tenderSchema.post(/^find/, function (docs, next) {
+//     console.log(`Query took ${Date.now() - this.start} milliseconds!`);
+//     next()
+// });
 
 
 // AGGREGATION MIDDLEWARE

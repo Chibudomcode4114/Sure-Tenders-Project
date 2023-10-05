@@ -3,8 +3,8 @@ const dotenv = require('dotenv')
 
 
 process.on('uncaughtException', err => {
-  console.log('UNCAUGHT EXCEPTION! 💥 Shutting Down App...');
-  console.log(err.name, err.message);
+  // console.log('UNCAUGHT EXCEPTION! 💥 Shutting Down App...');
+  // console.log(err.name, err.message);
   process.exit(1);
 })
 
@@ -22,7 +22,7 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log('DB connections Successful!!')
+    // console.log('DB connections Successful!!')
     // .catch(err => console.log('ERROR'))
   });
 
@@ -30,12 +30,12 @@ mongoose
 
 const port = process.env.PORT || 8000
 const server = app.listen(port, () => {
-  console.log(`App listening on port ${port}!`, `http://localhost:${port}`)
+  // console.log(`App listening on port ${port}!`, `http://localhost:${port}`)
 });
 
 process.on('unhandledRejection', (err) => {
-  console.log(err.name, err.message);
-  console.log('UNHANDLED REJECTION!💥 Shutting Down App...');
+  // console.log(err.name, err.message);
+  // console.log('UNHANDLED REJECTION!💥 Shutting Down App...');
   server.close(() => {
     process.exit(1);
   });
